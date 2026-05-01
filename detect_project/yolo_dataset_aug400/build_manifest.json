@@ -1,0 +1,2822 @@
+{
+  "source_images": 40,
+  "target_total": 400,
+  "created_total": 400,
+  "train_total": 320,
+  "val_total": 80,
+  "dropped_box_recoveries": 75,
+  "seed": 42,
+  "augment": {
+    "angle": 8.0,
+    "scale_min": 0.92,
+    "scale_max": 1.08,
+    "translate": 0.08,
+    "fliplr_prob": 0.5,
+    "hsv_h": 0.015,
+    "hsv_s": 0.3,
+    "hsv_v": 0.2,
+    "noise_std": 6.0
+  },
+  "rows": [
+    {
+      "source": "20221121_084125244",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v00.jpg",
+      "label": "labels/train/20221121_084125244_v00.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v01.jpg",
+      "label": "labels/train/20221121_084125244_v01.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v02.jpg",
+      "label": "labels/train/20221121_084125244_v02.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v03.jpg",
+      "label": "labels/train/20221121_084125244_v03.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v04.jpg",
+      "label": "labels/train/20221121_084125244_v04.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v05.jpg",
+      "label": "labels/train/20221121_084125244_v05.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v06.jpg",
+      "label": "labels/train/20221121_084125244_v06.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v07.jpg",
+      "label": "labels/train/20221121_084125244_v07.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v08.jpg",
+      "label": "labels/train/20221121_084125244_v08.txt"
+    },
+    {
+      "source": "20221121_084125244",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_084125244_v09.jpg",
+      "label": "labels/train/20221121_084125244_v09.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v00.jpg",
+      "label": "labels/train/20221121_084203350_v00.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v01.jpg",
+      "label": "labels/train/20221121_084203350_v01.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v02.jpg",
+      "label": "labels/train/20221121_084203350_v02.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v03.jpg",
+      "label": "labels/train/20221121_084203350_v03.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v04.jpg",
+      "label": "labels/train/20221121_084203350_v04.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v05.jpg",
+      "label": "labels/train/20221121_084203350_v05.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v06.jpg",
+      "label": "labels/train/20221121_084203350_v06.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v07.jpg",
+      "label": "labels/train/20221121_084203350_v07.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v08.jpg",
+      "label": "labels/train/20221121_084203350_v08.txt"
+    },
+    {
+      "source": "20221121_084203350",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_084203350_v09.jpg",
+      "label": "labels/train/20221121_084203350_v09.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v00.jpg",
+      "label": "labels/train/20221121_084224789_v00.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v01.jpg",
+      "label": "labels/train/20221121_084224789_v01.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v02.jpg",
+      "label": "labels/train/20221121_084224789_v02.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v03.jpg",
+      "label": "labels/train/20221121_084224789_v03.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v04.jpg",
+      "label": "labels/train/20221121_084224789_v04.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v05.jpg",
+      "label": "labels/train/20221121_084224789_v05.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v06.jpg",
+      "label": "labels/train/20221121_084224789_v06.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v07.jpg",
+      "label": "labels/train/20221121_084224789_v07.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v08.jpg",
+      "label": "labels/train/20221121_084224789_v08.txt"
+    },
+    {
+      "source": "20221121_084224789",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_084224789_v09.jpg",
+      "label": "labels/train/20221121_084224789_v09.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v00.jpg",
+      "label": "labels/val/20221121_084515882_v00.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v01.jpg",
+      "label": "labels/val/20221121_084515882_v01.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v02.jpg",
+      "label": "labels/val/20221121_084515882_v02.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v03.jpg",
+      "label": "labels/val/20221121_084515882_v03.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v04.jpg",
+      "label": "labels/val/20221121_084515882_v04.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v05.jpg",
+      "label": "labels/val/20221121_084515882_v05.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v06.jpg",
+      "label": "labels/val/20221121_084515882_v06.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v07.jpg",
+      "label": "labels/val/20221121_084515882_v07.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v08.jpg",
+      "label": "labels/val/20221121_084515882_v08.txt"
+    },
+    {
+      "source": "20221121_084515882",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_084515882_v09.jpg",
+      "label": "labels/val/20221121_084515882_v09.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v00.jpg",
+      "label": "labels/train/20221121_084617183_v00.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v01.jpg",
+      "label": "labels/train/20221121_084617183_v01.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v02.jpg",
+      "label": "labels/train/20221121_084617183_v02.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v03.jpg",
+      "label": "labels/train/20221121_084617183_v03.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v04.jpg",
+      "label": "labels/train/20221121_084617183_v04.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v05.jpg",
+      "label": "labels/train/20221121_084617183_v05.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v06.jpg",
+      "label": "labels/train/20221121_084617183_v06.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v07.jpg",
+      "label": "labels/train/20221121_084617183_v07.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v08.jpg",
+      "label": "labels/train/20221121_084617183_v08.txt"
+    },
+    {
+      "source": "20221121_084617183",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_084617183_v09.jpg",
+      "label": "labels/train/20221121_084617183_v09.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v00.jpg",
+      "label": "labels/train/20221121_084620693_v00.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v01.jpg",
+      "label": "labels/train/20221121_084620693_v01.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v02.jpg",
+      "label": "labels/train/20221121_084620693_v02.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v03.jpg",
+      "label": "labels/train/20221121_084620693_v03.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v04.jpg",
+      "label": "labels/train/20221121_084620693_v04.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v05.jpg",
+      "label": "labels/train/20221121_084620693_v05.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v06.jpg",
+      "label": "labels/train/20221121_084620693_v06.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v07.jpg",
+      "label": "labels/train/20221121_084620693_v07.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v08.jpg",
+      "label": "labels/train/20221121_084620693_v08.txt"
+    },
+    {
+      "source": "20221121_084620693",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_084620693_v09.jpg",
+      "label": "labels/train/20221121_084620693_v09.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v00.jpg",
+      "label": "labels/train/20221121_085822323_v00.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v01.jpg",
+      "label": "labels/train/20221121_085822323_v01.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v02.jpg",
+      "label": "labels/train/20221121_085822323_v02.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v03.jpg",
+      "label": "labels/train/20221121_085822323_v03.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v04.jpg",
+      "label": "labels/train/20221121_085822323_v04.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v05.jpg",
+      "label": "labels/train/20221121_085822323_v05.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v06.jpg",
+      "label": "labels/train/20221121_085822323_v06.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v07.jpg",
+      "label": "labels/train/20221121_085822323_v07.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v08.jpg",
+      "label": "labels/train/20221121_085822323_v08.txt"
+    },
+    {
+      "source": "20221121_085822323",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_085822323_v09.jpg",
+      "label": "labels/train/20221121_085822323_v09.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v00.jpg",
+      "label": "labels/train/20221121_085834358_v00.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v01.jpg",
+      "label": "labels/train/20221121_085834358_v01.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v02.jpg",
+      "label": "labels/train/20221121_085834358_v02.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v03.jpg",
+      "label": "labels/train/20221121_085834358_v03.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v04.jpg",
+      "label": "labels/train/20221121_085834358_v04.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v05.jpg",
+      "label": "labels/train/20221121_085834358_v05.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v06.jpg",
+      "label": "labels/train/20221121_085834358_v06.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v07.jpg",
+      "label": "labels/train/20221121_085834358_v07.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v08.jpg",
+      "label": "labels/train/20221121_085834358_v08.txt"
+    },
+    {
+      "source": "20221121_085834358",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_085834358_v09.jpg",
+      "label": "labels/train/20221121_085834358_v09.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v00.jpg",
+      "label": "labels/train/20221121_090905781_v00.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v01.jpg",
+      "label": "labels/train/20221121_090905781_v01.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v02.jpg",
+      "label": "labels/train/20221121_090905781_v02.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v03.jpg",
+      "label": "labels/train/20221121_090905781_v03.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v04.jpg",
+      "label": "labels/train/20221121_090905781_v04.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v05.jpg",
+      "label": "labels/train/20221121_090905781_v05.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v06.jpg",
+      "label": "labels/train/20221121_090905781_v06.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v07.jpg",
+      "label": "labels/train/20221121_090905781_v07.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v08.jpg",
+      "label": "labels/train/20221121_090905781_v08.txt"
+    },
+    {
+      "source": "20221121_090905781",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_090905781_v09.jpg",
+      "label": "labels/train/20221121_090905781_v09.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v00.jpg",
+      "label": "labels/val/20221121_091419622_v00.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v01.jpg",
+      "label": "labels/val/20221121_091419622_v01.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v02.jpg",
+      "label": "labels/val/20221121_091419622_v02.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v03.jpg",
+      "label": "labels/val/20221121_091419622_v03.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v04.jpg",
+      "label": "labels/val/20221121_091419622_v04.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v05.jpg",
+      "label": "labels/val/20221121_091419622_v05.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v06.jpg",
+      "label": "labels/val/20221121_091419622_v06.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v07.jpg",
+      "label": "labels/val/20221121_091419622_v07.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v08.jpg",
+      "label": "labels/val/20221121_091419622_v08.txt"
+    },
+    {
+      "source": "20221121_091419622",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_091419622_v09.jpg",
+      "label": "labels/val/20221121_091419622_v09.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v00.jpg",
+      "label": "labels/val/20221121_091438926_v00.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v01.jpg",
+      "label": "labels/val/20221121_091438926_v01.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v02.jpg",
+      "label": "labels/val/20221121_091438926_v02.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v03.jpg",
+      "label": "labels/val/20221121_091438926_v03.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v04.jpg",
+      "label": "labels/val/20221121_091438926_v04.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v05.jpg",
+      "label": "labels/val/20221121_091438926_v05.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v06.jpg",
+      "label": "labels/val/20221121_091438926_v06.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v07.jpg",
+      "label": "labels/val/20221121_091438926_v07.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v08.jpg",
+      "label": "labels/val/20221121_091438926_v08.txt"
+    },
+    {
+      "source": "20221121_091438926",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_091438926_v09.jpg",
+      "label": "labels/val/20221121_091438926_v09.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v00.jpg",
+      "label": "labels/val/20221121_091532261_v00.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v01.jpg",
+      "label": "labels/val/20221121_091532261_v01.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v02.jpg",
+      "label": "labels/val/20221121_091532261_v02.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v03.jpg",
+      "label": "labels/val/20221121_091532261_v03.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v04.jpg",
+      "label": "labels/val/20221121_091532261_v04.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v05.jpg",
+      "label": "labels/val/20221121_091532261_v05.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v06.jpg",
+      "label": "labels/val/20221121_091532261_v06.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v07.jpg",
+      "label": "labels/val/20221121_091532261_v07.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v08.jpg",
+      "label": "labels/val/20221121_091532261_v08.txt"
+    },
+    {
+      "source": "20221121_091532261",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_091532261_v09.jpg",
+      "label": "labels/val/20221121_091532261_v09.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v00.jpg",
+      "label": "labels/train/20221121_094431309_v00.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v01.jpg",
+      "label": "labels/train/20221121_094431309_v01.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v02.jpg",
+      "label": "labels/train/20221121_094431309_v02.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v03.jpg",
+      "label": "labels/train/20221121_094431309_v03.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v04.jpg",
+      "label": "labels/train/20221121_094431309_v04.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v05.jpg",
+      "label": "labels/train/20221121_094431309_v05.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v06.jpg",
+      "label": "labels/train/20221121_094431309_v06.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v07.jpg",
+      "label": "labels/train/20221121_094431309_v07.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v08.jpg",
+      "label": "labels/train/20221121_094431309_v08.txt"
+    },
+    {
+      "source": "20221121_094431309",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094431309_v09.jpg",
+      "label": "labels/train/20221121_094431309_v09.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v00.jpg",
+      "label": "labels/train/20221121_094502121_v00.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v01.jpg",
+      "label": "labels/train/20221121_094502121_v01.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v02.jpg",
+      "label": "labels/train/20221121_094502121_v02.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v03.jpg",
+      "label": "labels/train/20221121_094502121_v03.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v04.jpg",
+      "label": "labels/train/20221121_094502121_v04.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v05.jpg",
+      "label": "labels/train/20221121_094502121_v05.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v06.jpg",
+      "label": "labels/train/20221121_094502121_v06.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v07.jpg",
+      "label": "labels/train/20221121_094502121_v07.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v08.jpg",
+      "label": "labels/train/20221121_094502121_v08.txt"
+    },
+    {
+      "source": "20221121_094502121",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094502121_v09.jpg",
+      "label": "labels/train/20221121_094502121_v09.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v00.jpg",
+      "label": "labels/train/20221121_094532586_v00.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v01.jpg",
+      "label": "labels/train/20221121_094532586_v01.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v02.jpg",
+      "label": "labels/train/20221121_094532586_v02.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v03.jpg",
+      "label": "labels/train/20221121_094532586_v03.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v04.jpg",
+      "label": "labels/train/20221121_094532586_v04.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v05.jpg",
+      "label": "labels/train/20221121_094532586_v05.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v06.jpg",
+      "label": "labels/train/20221121_094532586_v06.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v07.jpg",
+      "label": "labels/train/20221121_094532586_v07.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v08.jpg",
+      "label": "labels/train/20221121_094532586_v08.txt"
+    },
+    {
+      "source": "20221121_094532586",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094532586_v09.jpg",
+      "label": "labels/train/20221121_094532586_v09.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v00.jpg",
+      "label": "labels/train/20221121_094544558_v00.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v01.jpg",
+      "label": "labels/train/20221121_094544558_v01.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v02.jpg",
+      "label": "labels/train/20221121_094544558_v02.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v03.jpg",
+      "label": "labels/train/20221121_094544558_v03.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v04.jpg",
+      "label": "labels/train/20221121_094544558_v04.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v05.jpg",
+      "label": "labels/train/20221121_094544558_v05.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v06.jpg",
+      "label": "labels/train/20221121_094544558_v06.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v07.jpg",
+      "label": "labels/train/20221121_094544558_v07.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v08.jpg",
+      "label": "labels/train/20221121_094544558_v08.txt"
+    },
+    {
+      "source": "20221121_094544558",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094544558_v09.jpg",
+      "label": "labels/train/20221121_094544558_v09.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v00.jpg",
+      "label": "labels/train/20221121_094651661_v00.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v01.jpg",
+      "label": "labels/train/20221121_094651661_v01.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v02.jpg",
+      "label": "labels/train/20221121_094651661_v02.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v03.jpg",
+      "label": "labels/train/20221121_094651661_v03.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v04.jpg",
+      "label": "labels/train/20221121_094651661_v04.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v05.jpg",
+      "label": "labels/train/20221121_094651661_v05.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v06.jpg",
+      "label": "labels/train/20221121_094651661_v06.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v07.jpg",
+      "label": "labels/train/20221121_094651661_v07.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v08.jpg",
+      "label": "labels/train/20221121_094651661_v08.txt"
+    },
+    {
+      "source": "20221121_094651661",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094651661_v09.jpg",
+      "label": "labels/train/20221121_094651661_v09.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v00.jpg",
+      "label": "labels/train/20221121_094704266_v00.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v01.jpg",
+      "label": "labels/train/20221121_094704266_v01.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v02.jpg",
+      "label": "labels/train/20221121_094704266_v02.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v03.jpg",
+      "label": "labels/train/20221121_094704266_v03.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v04.jpg",
+      "label": "labels/train/20221121_094704266_v04.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v05.jpg",
+      "label": "labels/train/20221121_094704266_v05.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v06.jpg",
+      "label": "labels/train/20221121_094704266_v06.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v07.jpg",
+      "label": "labels/train/20221121_094704266_v07.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v08.jpg",
+      "label": "labels/train/20221121_094704266_v08.txt"
+    },
+    {
+      "source": "20221121_094704266",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094704266_v09.jpg",
+      "label": "labels/train/20221121_094704266_v09.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v00.jpg",
+      "label": "labels/train/20221121_094816957_v00.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v01.jpg",
+      "label": "labels/train/20221121_094816957_v01.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v02.jpg",
+      "label": "labels/train/20221121_094816957_v02.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v03.jpg",
+      "label": "labels/train/20221121_094816957_v03.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v04.jpg",
+      "label": "labels/train/20221121_094816957_v04.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v05.jpg",
+      "label": "labels/train/20221121_094816957_v05.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v06.jpg",
+      "label": "labels/train/20221121_094816957_v06.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v07.jpg",
+      "label": "labels/train/20221121_094816957_v07.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v08.jpg",
+      "label": "labels/train/20221121_094816957_v08.txt"
+    },
+    {
+      "source": "20221121_094816957",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_094816957_v09.jpg",
+      "label": "labels/train/20221121_094816957_v09.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v00.jpg",
+      "label": "labels/train/20221121_095106142_v00.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v01.jpg",
+      "label": "labels/train/20221121_095106142_v01.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v02.jpg",
+      "label": "labels/train/20221121_095106142_v02.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v03.jpg",
+      "label": "labels/train/20221121_095106142_v03.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v04.jpg",
+      "label": "labels/train/20221121_095106142_v04.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v05.jpg",
+      "label": "labels/train/20221121_095106142_v05.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v06.jpg",
+      "label": "labels/train/20221121_095106142_v06.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v07.jpg",
+      "label": "labels/train/20221121_095106142_v07.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v08.jpg",
+      "label": "labels/train/20221121_095106142_v08.txt"
+    },
+    {
+      "source": "20221121_095106142",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_095106142_v09.jpg",
+      "label": "labels/train/20221121_095106142_v09.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v00.jpg",
+      "label": "labels/train/20221121_095132001_v00.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v01.jpg",
+      "label": "labels/train/20221121_095132001_v01.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v02.jpg",
+      "label": "labels/train/20221121_095132001_v02.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v03.jpg",
+      "label": "labels/train/20221121_095132001_v03.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v04.jpg",
+      "label": "labels/train/20221121_095132001_v04.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v05.jpg",
+      "label": "labels/train/20221121_095132001_v05.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v06.jpg",
+      "label": "labels/train/20221121_095132001_v06.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v07.jpg",
+      "label": "labels/train/20221121_095132001_v07.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v08.jpg",
+      "label": "labels/train/20221121_095132001_v08.txt"
+    },
+    {
+      "source": "20221121_095132001",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_095132001_v09.jpg",
+      "label": "labels/train/20221121_095132001_v09.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v00.jpg",
+      "label": "labels/train/20221121_095611552_v00.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v01.jpg",
+      "label": "labels/train/20221121_095611552_v01.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v02.jpg",
+      "label": "labels/train/20221121_095611552_v02.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v03.jpg",
+      "label": "labels/train/20221121_095611552_v03.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v04.jpg",
+      "label": "labels/train/20221121_095611552_v04.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v05.jpg",
+      "label": "labels/train/20221121_095611552_v05.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v06.jpg",
+      "label": "labels/train/20221121_095611552_v06.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v07.jpg",
+      "label": "labels/train/20221121_095611552_v07.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v08.jpg",
+      "label": "labels/train/20221121_095611552_v08.txt"
+    },
+    {
+      "source": "20221121_095611552",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_095611552_v09.jpg",
+      "label": "labels/train/20221121_095611552_v09.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v00.jpg",
+      "label": "labels/train/20221121_095921248_v00.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v01.jpg",
+      "label": "labels/train/20221121_095921248_v01.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v02.jpg",
+      "label": "labels/train/20221121_095921248_v02.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v03.jpg",
+      "label": "labels/train/20221121_095921248_v03.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v04.jpg",
+      "label": "labels/train/20221121_095921248_v04.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v05.jpg",
+      "label": "labels/train/20221121_095921248_v05.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v06.jpg",
+      "label": "labels/train/20221121_095921248_v06.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v07.jpg",
+      "label": "labels/train/20221121_095921248_v07.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v08.jpg",
+      "label": "labels/train/20221121_095921248_v08.txt"
+    },
+    {
+      "source": "20221121_095921248",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_095921248_v09.jpg",
+      "label": "labels/train/20221121_095921248_v09.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v00.jpg",
+      "label": "labels/train/20221121_100537648_v00.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v01.jpg",
+      "label": "labels/train/20221121_100537648_v01.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v02.jpg",
+      "label": "labels/train/20221121_100537648_v02.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v03.jpg",
+      "label": "labels/train/20221121_100537648_v03.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v04.jpg",
+      "label": "labels/train/20221121_100537648_v04.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v05.jpg",
+      "label": "labels/train/20221121_100537648_v05.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v06.jpg",
+      "label": "labels/train/20221121_100537648_v06.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v07.jpg",
+      "label": "labels/train/20221121_100537648_v07.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v08.jpg",
+      "label": "labels/train/20221121_100537648_v08.txt"
+    },
+    {
+      "source": "20221121_100537648",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_100537648_v09.jpg",
+      "label": "labels/train/20221121_100537648_v09.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v00.jpg",
+      "label": "labels/val/20221121_100541256_v00.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v01.jpg",
+      "label": "labels/val/20221121_100541256_v01.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v02.jpg",
+      "label": "labels/val/20221121_100541256_v02.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v03.jpg",
+      "label": "labels/val/20221121_100541256_v03.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v04.jpg",
+      "label": "labels/val/20221121_100541256_v04.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v05.jpg",
+      "label": "labels/val/20221121_100541256_v05.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v06.jpg",
+      "label": "labels/val/20221121_100541256_v06.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v07.jpg",
+      "label": "labels/val/20221121_100541256_v07.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v08.jpg",
+      "label": "labels/val/20221121_100541256_v08.txt"
+    },
+    {
+      "source": "20221121_100541256",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_100541256_v09.jpg",
+      "label": "labels/val/20221121_100541256_v09.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v00.jpg",
+      "label": "labels/val/20221121_100601886_v00.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v01.jpg",
+      "label": "labels/val/20221121_100601886_v01.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v02.jpg",
+      "label": "labels/val/20221121_100601886_v02.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v03.jpg",
+      "label": "labels/val/20221121_100601886_v03.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v04.jpg",
+      "label": "labels/val/20221121_100601886_v04.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v05.jpg",
+      "label": "labels/val/20221121_100601886_v05.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v06.jpg",
+      "label": "labels/val/20221121_100601886_v06.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v07.jpg",
+      "label": "labels/val/20221121_100601886_v07.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v08.jpg",
+      "label": "labels/val/20221121_100601886_v08.txt"
+    },
+    {
+      "source": "20221121_100601886",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_100601886_v09.jpg",
+      "label": "labels/val/20221121_100601886_v09.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v00.jpg",
+      "label": "labels/train/20221121_100733727_v00.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v01.jpg",
+      "label": "labels/train/20221121_100733727_v01.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v02.jpg",
+      "label": "labels/train/20221121_100733727_v02.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v03.jpg",
+      "label": "labels/train/20221121_100733727_v03.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v04.jpg",
+      "label": "labels/train/20221121_100733727_v04.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v05.jpg",
+      "label": "labels/train/20221121_100733727_v05.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v06.jpg",
+      "label": "labels/train/20221121_100733727_v06.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v07.jpg",
+      "label": "labels/train/20221121_100733727_v07.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v08.jpg",
+      "label": "labels/train/20221121_100733727_v08.txt"
+    },
+    {
+      "source": "20221121_100733727",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_100733727_v09.jpg",
+      "label": "labels/train/20221121_100733727_v09.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v00.jpg",
+      "label": "labels/train/20221121_100824678_v00.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v01.jpg",
+      "label": "labels/train/20221121_100824678_v01.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v02.jpg",
+      "label": "labels/train/20221121_100824678_v02.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v03.jpg",
+      "label": "labels/train/20221121_100824678_v03.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v04.jpg",
+      "label": "labels/train/20221121_100824678_v04.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v05.jpg",
+      "label": "labels/train/20221121_100824678_v05.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v06.jpg",
+      "label": "labels/train/20221121_100824678_v06.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v07.jpg",
+      "label": "labels/train/20221121_100824678_v07.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v08.jpg",
+      "label": "labels/train/20221121_100824678_v08.txt"
+    },
+    {
+      "source": "20221121_100824678",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_100824678_v09.jpg",
+      "label": "labels/train/20221121_100824678_v09.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v00.jpg",
+      "label": "labels/train/20221121_100935926_v00.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v01.jpg",
+      "label": "labels/train/20221121_100935926_v01.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v02.jpg",
+      "label": "labels/train/20221121_100935926_v02.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v03.jpg",
+      "label": "labels/train/20221121_100935926_v03.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v04.jpg",
+      "label": "labels/train/20221121_100935926_v04.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v05.jpg",
+      "label": "labels/train/20221121_100935926_v05.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v06.jpg",
+      "label": "labels/train/20221121_100935926_v06.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v07.jpg",
+      "label": "labels/train/20221121_100935926_v07.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v08.jpg",
+      "label": "labels/train/20221121_100935926_v08.txt"
+    },
+    {
+      "source": "20221121_100935926",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_100935926_v09.jpg",
+      "label": "labels/train/20221121_100935926_v09.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v00.jpg",
+      "label": "labels/train/20221121_101245659_v00.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v01.jpg",
+      "label": "labels/train/20221121_101245659_v01.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v02.jpg",
+      "label": "labels/train/20221121_101245659_v02.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v03.jpg",
+      "label": "labels/train/20221121_101245659_v03.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v04.jpg",
+      "label": "labels/train/20221121_101245659_v04.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v05.jpg",
+      "label": "labels/train/20221121_101245659_v05.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v06.jpg",
+      "label": "labels/train/20221121_101245659_v06.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v07.jpg",
+      "label": "labels/train/20221121_101245659_v07.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v08.jpg",
+      "label": "labels/train/20221121_101245659_v08.txt"
+    },
+    {
+      "source": "20221121_101245659",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_101245659_v09.jpg",
+      "label": "labels/train/20221121_101245659_v09.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v00.jpg",
+      "label": "labels/val/20221121_101402268_v00.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v01.jpg",
+      "label": "labels/val/20221121_101402268_v01.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v02.jpg",
+      "label": "labels/val/20221121_101402268_v02.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v03.jpg",
+      "label": "labels/val/20221121_101402268_v03.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v04.jpg",
+      "label": "labels/val/20221121_101402268_v04.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v05.jpg",
+      "label": "labels/val/20221121_101402268_v05.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v06.jpg",
+      "label": "labels/val/20221121_101402268_v06.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v07.jpg",
+      "label": "labels/val/20221121_101402268_v07.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v08.jpg",
+      "label": "labels/val/20221121_101402268_v08.txt"
+    },
+    {
+      "source": "20221121_101402268",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_101402268_v09.jpg",
+      "label": "labels/val/20221121_101402268_v09.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v00.jpg",
+      "label": "labels/train/20221121_101823734_v00.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v01.jpg",
+      "label": "labels/train/20221121_101823734_v01.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v02.jpg",
+      "label": "labels/train/20221121_101823734_v02.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v03.jpg",
+      "label": "labels/train/20221121_101823734_v03.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v04.jpg",
+      "label": "labels/train/20221121_101823734_v04.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v05.jpg",
+      "label": "labels/train/20221121_101823734_v05.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v06.jpg",
+      "label": "labels/train/20221121_101823734_v06.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v07.jpg",
+      "label": "labels/train/20221121_101823734_v07.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v08.jpg",
+      "label": "labels/train/20221121_101823734_v08.txt"
+    },
+    {
+      "source": "20221121_101823734",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_101823734_v09.jpg",
+      "label": "labels/train/20221121_101823734_v09.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v00.jpg",
+      "label": "labels/train/20221121_102107718_v00.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v01.jpg",
+      "label": "labels/train/20221121_102107718_v01.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v02.jpg",
+      "label": "labels/train/20221121_102107718_v02.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v03.jpg",
+      "label": "labels/train/20221121_102107718_v03.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v04.jpg",
+      "label": "labels/train/20221121_102107718_v04.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v05.jpg",
+      "label": "labels/train/20221121_102107718_v05.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v06.jpg",
+      "label": "labels/train/20221121_102107718_v06.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v07.jpg",
+      "label": "labels/train/20221121_102107718_v07.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v08.jpg",
+      "label": "labels/train/20221121_102107718_v08.txt"
+    },
+    {
+      "source": "20221121_102107718",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_102107718_v09.jpg",
+      "label": "labels/train/20221121_102107718_v09.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v00.jpg",
+      "label": "labels/train/20221121_102306035_v00.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v01.jpg",
+      "label": "labels/train/20221121_102306035_v01.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v02.jpg",
+      "label": "labels/train/20221121_102306035_v02.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v03.jpg",
+      "label": "labels/train/20221121_102306035_v03.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v04.jpg",
+      "label": "labels/train/20221121_102306035_v04.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v05.jpg",
+      "label": "labels/train/20221121_102306035_v05.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v06.jpg",
+      "label": "labels/train/20221121_102306035_v06.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v07.jpg",
+      "label": "labels/train/20221121_102306035_v07.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v08.jpg",
+      "label": "labels/train/20221121_102306035_v08.txt"
+    },
+    {
+      "source": "20221121_102306035",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_102306035_v09.jpg",
+      "label": "labels/train/20221121_102306035_v09.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v00.jpg",
+      "label": "labels/train/20221121_102829573_v00.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v01.jpg",
+      "label": "labels/train/20221121_102829573_v01.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v02.jpg",
+      "label": "labels/train/20221121_102829573_v02.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v03.jpg",
+      "label": "labels/train/20221121_102829573_v03.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v04.jpg",
+      "label": "labels/train/20221121_102829573_v04.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v05.jpg",
+      "label": "labels/train/20221121_102829573_v05.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v06.jpg",
+      "label": "labels/train/20221121_102829573_v06.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v07.jpg",
+      "label": "labels/train/20221121_102829573_v07.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v08.jpg",
+      "label": "labels/train/20221121_102829573_v08.txt"
+    },
+    {
+      "source": "20221121_102829573",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_102829573_v09.jpg",
+      "label": "labels/train/20221121_102829573_v09.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v00.jpg",
+      "label": "labels/train/20221121_102915840_v00.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v01.jpg",
+      "label": "labels/train/20221121_102915840_v01.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v02.jpg",
+      "label": "labels/train/20221121_102915840_v02.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v03.jpg",
+      "label": "labels/train/20221121_102915840_v03.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v04.jpg",
+      "label": "labels/train/20221121_102915840_v04.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v05.jpg",
+      "label": "labels/train/20221121_102915840_v05.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v06.jpg",
+      "label": "labels/train/20221121_102915840_v06.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v07.jpg",
+      "label": "labels/train/20221121_102915840_v07.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v08.jpg",
+      "label": "labels/train/20221121_102915840_v08.txt"
+    },
+    {
+      "source": "20221121_102915840",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_102915840_v09.jpg",
+      "label": "labels/train/20221121_102915840_v09.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 0,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v00.jpg",
+      "label": "labels/val/20221121_102917053_v00.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 1,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v01.jpg",
+      "label": "labels/val/20221121_102917053_v01.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 2,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v02.jpg",
+      "label": "labels/val/20221121_102917053_v02.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 3,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v03.jpg",
+      "label": "labels/val/20221121_102917053_v03.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 4,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v04.jpg",
+      "label": "labels/val/20221121_102917053_v04.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 5,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v05.jpg",
+      "label": "labels/val/20221121_102917053_v05.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 6,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v06.jpg",
+      "label": "labels/val/20221121_102917053_v06.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 7,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v07.jpg",
+      "label": "labels/val/20221121_102917053_v07.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 8,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v08.jpg",
+      "label": "labels/val/20221121_102917053_v08.txt"
+    },
+    {
+      "source": "20221121_102917053",
+      "variant": 9,
+      "split": "val",
+      "image": "images/val/20221121_102917053_v09.jpg",
+      "label": "labels/val/20221121_102917053_v09.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v00.jpg",
+      "label": "labels/train/20221121_103047468_v00.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v01.jpg",
+      "label": "labels/train/20221121_103047468_v01.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v02.jpg",
+      "label": "labels/train/20221121_103047468_v02.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v03.jpg",
+      "label": "labels/train/20221121_103047468_v03.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v04.jpg",
+      "label": "labels/train/20221121_103047468_v04.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v05.jpg",
+      "label": "labels/train/20221121_103047468_v05.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v06.jpg",
+      "label": "labels/train/20221121_103047468_v06.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v07.jpg",
+      "label": "labels/train/20221121_103047468_v07.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v08.jpg",
+      "label": "labels/train/20221121_103047468_v08.txt"
+    },
+    {
+      "source": "20221121_103047468",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_103047468_v09.jpg",
+      "label": "labels/train/20221121_103047468_v09.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v00.jpg",
+      "label": "labels/train/20221121_103058360_v00.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v01.jpg",
+      "label": "labels/train/20221121_103058360_v01.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v02.jpg",
+      "label": "labels/train/20221121_103058360_v02.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v03.jpg",
+      "label": "labels/train/20221121_103058360_v03.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v04.jpg",
+      "label": "labels/train/20221121_103058360_v04.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v05.jpg",
+      "label": "labels/train/20221121_103058360_v05.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v06.jpg",
+      "label": "labels/train/20221121_103058360_v06.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v07.jpg",
+      "label": "labels/train/20221121_103058360_v07.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v08.jpg",
+      "label": "labels/train/20221121_103058360_v08.txt"
+    },
+    {
+      "source": "20221121_103058360",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_103058360_v09.jpg",
+      "label": "labels/train/20221121_103058360_v09.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 0,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v00.jpg",
+      "label": "labels/train/20221121_103130769_v00.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 1,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v01.jpg",
+      "label": "labels/train/20221121_103130769_v01.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 2,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v02.jpg",
+      "label": "labels/train/20221121_103130769_v02.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 3,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v03.jpg",
+      "label": "labels/train/20221121_103130769_v03.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 4,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v04.jpg",
+      "label": "labels/train/20221121_103130769_v04.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 5,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v05.jpg",
+      "label": "labels/train/20221121_103130769_v05.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 6,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v06.jpg",
+      "label": "labels/train/20221121_103130769_v06.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 7,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v07.jpg",
+      "label": "labels/train/20221121_103130769_v07.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 8,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v08.jpg",
+      "label": "labels/train/20221121_103130769_v08.txt"
+    },
+    {
+      "source": "20221121_103130769",
+      "variant": 9,
+      "split": "train",
+      "image": "images/train/20221121_103130769_v09.jpg",
+      "label": "labels/train/20221121_103130769_v09.txt"
+    }
+  ]
+}

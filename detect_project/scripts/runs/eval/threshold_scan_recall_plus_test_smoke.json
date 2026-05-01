@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-04-02T15:17:39",
+  "weights": "D:\\code\\ultralytics-v8.2.100\\detect_project\\scripts\\runs\\detect\\runs\\detect\\pv_yolov11n3\\weights\\best.pt",
+  "data": "D:\\code\\ultralytics-v8.2.100\\detect_project\\yolo_dataset_aug400\\dataset.yaml",
+  "resolved_data": "C:\\Users\\LVHE\\AppData\\Local\\Temp\\scan_data_892dq4n1.yaml",
+  "val_split": "val",
+  "test_split": "test",
+  "imgsz": 1792,
+  "batch": 4,
+  "workers": 0,
+  "conf_grid": [
+    0.25,
+    0.3
+  ],
+  "iou_grid": [
+    0.45
+  ],
+  "max_det_grid": [
+    300
+  ],
+  "tta_grid": [
+    false
+  ],
+  "precision_floor": 0.4,
+  "val_results_ranked": [
+    {
+      "conf": 0.25,
+      "iou": 0.45,
+      "max_det": 300,
+      "tta": false,
+      "split": "val",
+      "metrics": {
+        "precision": 0.4153846153846154,
+        "recall": 0.6136363636363636,
+        "mAP50": 0.45716444125018435,
+        "mAP50_95": 0.11429535609744104
+      }
+    },
+    {
+      "conf": 0.3,
+      "iou": 0.45,
+      "max_det": 300,
+      "tta": false,
+      "split": "val",
+      "metrics": {
+        "precision": 0.4339622641509434,
+        "recall": 0.5227272727272727,
+        "mAP50": 0.4395624402988604,
+        "mAP50_95": 0.11021564645320847
+      }
+    }
+  ],
+  "best_recall_on_val": {
+    "conf": 0.25,
+    "iou": 0.45,
+    "max_det": 300,
+    "tta": false,
+    "split": "val",
+    "metrics": {
+      "precision": 0.4153846153846154,
+      "recall": 0.6136363636363636,
+      "mAP50": 0.45716444125018435,
+      "mAP50_95": 0.11429535609744104
+    }
+  },
+  "best_recall_with_precision_floor_on_val": {
+    "conf": 0.25,
+    "iou": 0.45,
+    "max_det": 300,
+    "tta": false,
+    "split": "val",
+    "metrics": {
+      "precision": 0.4153846153846154,
+      "recall": 0.6136363636363636,
+      "mAP50": 0.45716444125018435,
+      "mAP50_95": 0.11429535609744104
+    }
+  },
+  "test_validation_ranked": [
+    {
+      "conf": 0.25,
+      "iou": 0.45,
+      "max_det": 300,
+      "tta": false,
+      "split": "test",
+      "metrics": {
+        "precision": 0.5333333333333333,
+        "recall": 0.2,
+        "mAP50": 0.3828459790667436,
+        "mAP50_95": 0.21221174552502883
+      }
+    }
+  ],
+  "best_on_test_from_top_val_candidates": {
+    "conf": 0.25,
+    "iou": 0.45,
+    "max_det": 300,
+    "tta": false,
+    "split": "test",
+    "metrics": {
+      "precision": 0.5333333333333333,
+      "recall": 0.2,
+      "mAP50": 0.3828459790667436,
+      "mAP50_95": 0.21221174552502883
+    }
+  }
+}

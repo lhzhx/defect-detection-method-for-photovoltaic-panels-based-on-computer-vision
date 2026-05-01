@@ -1,0 +1,13 @@
+path: D:\code\ultralytics-v8.2.100\detect_project\yolo_dataset_aug400
+# 把原有的训练、验证、测试所有的图片都丢进一起用来训练
+train: 
+  - images/train
+  - images/val
+  - images/test
+# 同样使用全部数据来监控验证指标，看模型是否能对看过的所有图像做到极致收敛
+val: 
+  - images/train
+  - images/val
+  - images/test
+names:
+  0: NG

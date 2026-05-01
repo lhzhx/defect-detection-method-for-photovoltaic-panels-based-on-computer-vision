@@ -1,0 +1,37 @@
+<annotation>
+  <folder/>
+  <filename>20221121_094816957.jpg</filename>
+  <database/>
+  <annotation/>
+  <image/>
+  <size>
+    <height>2000</height>
+    <width>2000</width>
+    <depth>1</depth>
+  </size>
+  <segmented/>
+  <object>
+    <name>NG</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>98.69918699186991</xmin>
+      <ymin>5.691056910569105</ymin>
+      <xmax>117.88617886178861</xmax>
+      <ymax>13.170731707317072</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>NG</name>
+    <pose/>
+    <truncated/>
+    <difficult/>
+    <bndbox>
+      <xmin>1652.8455284552845</xmin>
+      <ymin>6.504065040650406</ymin>
+      <xmax>1667.9674796747966</xmax>
+      <ymax>14.471544715447154</ymax>
+    </bndbox>
+  </object>
+</annotation>

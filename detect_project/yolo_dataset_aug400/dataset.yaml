@@ -1,0 +1,6 @@
+path: D:\code\ultralytics-v8.2.100\detect_project\yolo_dataset_aug400
+train: images/train
+val: images/val
+names:
+  0: NG
+test: images/test
